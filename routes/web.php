@@ -13,3 +13,5 @@ use App\Http\Controllers\ArticleController;
 |
 */
 Route::resource('articles',ArticleController::class);
+
+route::get('/article/cetak_pdf',[ArticleController::class,'cetak_pdf']);
